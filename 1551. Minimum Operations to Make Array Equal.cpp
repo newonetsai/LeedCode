@@ -6,6 +6,7 @@ public:
             if((2*i+1)>=Average)
                 break;
             Output += (Average - (2*i+1));
+            
         }
         return Output;
     }
