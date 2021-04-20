@@ -22,7 +22,7 @@ public:
                 res.push_back({ nums[i], nums[lo++], nums[hi--] });
                 while (lo < hi && nums[lo] == nums[lo - 1])//avoid next num is the same
                     lo++;
-               
+              
             }
         }
      }
