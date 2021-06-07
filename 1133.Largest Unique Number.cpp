@@ -3,7 +3,7 @@ public:
     int largestUniqueNumber(vector<int>& s) {
         unordered_map<int, int> map;
         // Store counts of each element
-        for (auto i : s) {
+        for (auto i : s) { 
             map[i]++;
         }
         
