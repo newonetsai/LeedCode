@@ -2,7 +2,7 @@ class Solution {
 public:
     bool isRobotBounded(string instructions) {
         int x = 0, y = 0, i = 0;
-        for (char & ins : instructions)
+        for (char & ins : instructions) 
             if (ins == 'R')
                 i++;
             else if (ins == 'L')
