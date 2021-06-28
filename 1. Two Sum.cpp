@@ -8,7 +8,7 @@ public:
                 return {Map[target - nums[i]], i}; 
             }     
             Map[nums[i]] = i;    
-        }   
+        }    
         return {};  
     }  
 };       
