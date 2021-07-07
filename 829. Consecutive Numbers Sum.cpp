@@ -6,7 +6,7 @@ public:
         for(int i=2; i<=(sqrt(2 * N)); i++)
         {
             if(i%2==0)
-            {
+            { 
                 if((N%i)==(i/2))
                     Ans++;
             }
